@@ -1,2 +1,2 @@
-# NTUA_Software_Engineering_2024
+# NTUA Software Engineering 2024
 Toll System API implementation
