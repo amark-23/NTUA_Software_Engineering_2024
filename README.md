@@ -9,7 +9,7 @@ Toll System API implementation
 ## Overview
 
 This project provides a **RESTful Web API** and a **Command-Line Interface (CLI)** for managing interoperability of toll stations on highways. It allows administrators and users to interact with toll-related data such as vehicle passes, station information, and charges.
-It also includes a use case example HTML application
+It also includes a web application (HTML) as a use case.
 
 ## System Architecture
 
