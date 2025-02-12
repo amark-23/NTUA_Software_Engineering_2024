@@ -289,8 +289,66 @@ python app.py
 
 ---
 
-## 5. Conclusion
 
-This system provides a full-fledged REST API and CLI for toll station interoperability management. It supports authentication, station and pass data retrieval, and admin tools for managing the system.
 
+##### Front-end
+
+## Purpose
+
+This front-end application displays toll station data through a web interface. Users can select a time period and a toll station, then download the data in **CSV** or **JSON** format.
+
+## Technologies
+
+- **React**: JavaScript library for building dynamic user interfaces.
+- **React Router**: Used for page navigation within the application.
+- **CSS**: Styles for the application's appearance.
+
+## Features
+
+- **Date Range Selection**: Users can choose a start and end date.
+- **Toll Station Selection**: Users can select from a list of available toll stations.
+- **Data Download**: Users can download the data in **CSV** or **JSON** format.
+- **Access Protection**: Users must be logged in with a valid token to use the application.
+
+## Installation
+
+### Clone the repository:
+
+```sh
+git clone https://github.com/username/project-name.git
+cd project-name
+```
+
+### Install dependencies:
+
+```sh
+npm install
+```
+
+### Start the application:
+
+```sh
+npm start
+```
+
+The application will be available at **http://localhost:3000**.
+
+## Usage
+
+1. When users log into the application, they must select a time range (start and end date).
+2. After selecting the date range, users choose a toll station from the dropdown list.
+3. Users can download data for the selected station and time period in **CSV** or **JSON** format.
+
+## How It Works
+
+- **Authorization**: Users must be logged in with a valid username and token (stored locally in **localStorage**).
+- **API Requests**:
+  - Fetch available toll stations from the API.
+  - Retrieve toll station data based on the selected time period.
+- **File Download**: When a user selects a file format (**CSV** or **JSON**), the data is downloaded with a filename containing the **username and selected dates**.
+
+## Notes
+
+- The application uses **localStorage** to store login details (username and token).
+- If a user is not logged in or the token is invalid, they will be redirected to the **login page**.
 ---
