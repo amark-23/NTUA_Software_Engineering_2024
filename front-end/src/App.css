@@ -1,0 +1,29 @@
+/* App.css */
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+h1 {
+  padding: right;
+  font-size: 36px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 0;
+}

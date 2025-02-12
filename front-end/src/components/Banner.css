@@ -1,0 +1,13 @@
+.banner {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
+  
